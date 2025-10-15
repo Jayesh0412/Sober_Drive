@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>RTO Alcohol Detection — Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Firebase SDKs (compat) - replace with modular imports if preferred -->
+  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-database-compat.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <h1>RTO — Alcohol Detection Dashboard</h1>
+    <div class="controls">
+      <input id="search" placeholder="Search by driver name, licence, or vehicle no."/>
+      <button id="exportCsv">Export CSV</button>
+      <button id="clearAll">Clear (dev)</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="summary">
+      <div class="card">
+        <h2 id="totalAlerts">0</h2>
+        <p>Total Alerts</p>
+      </div>
+      <div class="card">
+        <h2 id="acknowledged">0</h2>
+        <p>Acknowledged</p>
+      </div>
+      <div class="card">
+        <h2 id="unack">0</h2>
+        <p>Unacknowledged</p>
+      </div>
+    </section>
+
+    <section class="list">
+      <table id="alertsTable">
+        <thead>
+          <tr>
+            <th>Time</th>
+            <th>Driver</th>
+            <th>Licence</th>
+            <th>Vehicle</th>
+            <th>Alcohol (%)</th>
+            <th>Threshold</th>
+            <th>Location</th>
+            <th>Status</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody id="alertsBody">
+          <!-- rows injected here -->
+        </tbody>
+      </table>
+    </section>
+
+    <section class="details" id="detailsPanel" hidden>
+      <button id="closeDetails">Close</button>
+      <h3>Alert details</h3>
+      <pre id="detailsJson"></pre>
+    </section>
+  </main>
+
+  <footer class="footer">
+   
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

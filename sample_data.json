@@ -1,0 +1,90 @@
+{
+  "alert1": {
+    "driver_name": "Rahul Kumar",
+    "licence": "DL-01-20240012345",
+    "vehicle_no": "DL1AB1234",
+    "alcohol_level": 0.45,
+    "threshold": 0.25,
+    "location": "New Delhi, Ring Road",
+    "timestamp": 1728963000000,
+    "device_id": "ESP32-01",
+    "ack": false
+  },
+  "alert2": {
+    "driver_name": "Priya Sharma",
+    "licence": "MH-12-20230098765",
+    "vehicle_no": "MH12CD9876",
+    "alcohol_level": 0.62,
+    "threshold": 0.25,
+    "location": "Pune, Aundh",
+    "timestamp": 1728966000000,
+    "device_id": "ARDUINO-02",
+    "ack": true
+  },
+  "alert3": {
+    "driver_name": "Ravi Singh",
+    "licence": "UP-32-20180077777",
+    "vehicle_no": "UP32EF4455",
+    "alcohol_level": 0.39,
+    "threshold": 0.25,
+    "location": "Lucknow, Gomti Nagar",
+    "timestamp": 1728969000000,
+    "device_id": "NODEMCU-03",
+    "ack": false
+  },
+  "alert4": {
+    "driver_name": "Aman Verma",
+    "licence": "RJ-14-20190112234",
+    "vehicle_no": "RJ14KL1122",
+    "alcohol_level": 0.78,
+    "threshold": 0.25,
+    "location": "Jaipur, MI Road",
+    "timestamp": 1728972000000,
+    "device_id": "ARDUINO-04",
+    "ack": false
+  },
+  "alert5": {
+    "driver_name": "Neha Patel",
+    "licence": "GJ-05-20220199876",
+    "vehicle_no": "GJ05MN5544",
+    "alcohol_level": 0.31,
+    "threshold": 0.25,
+    "location": "Ahmedabad, SG Highway",
+    "timestamp": 1728975000000,
+    "device_id": "ESP8266-05",
+    "ack": true
+  },
+  "alert6": {
+    "driver_name": "Suresh Reddy",
+    "licence": "TS-08-20170033221",
+    "vehicle_no": "TS08QR9911",
+    "alcohol_level": 0.58,
+    "threshold": 0.25,
+    "location": "Hyderabad, Banjara Hills",
+    "timestamp": 1728978000000,
+    "device_id": "RASPBERRY-06",
+    "ack": false
+  },
+  "alert7": {
+    "driver_name": "Anita Das",
+    "licence": "WB-20-20200055678",
+    "vehicle_no": "WB20ST7788",
+    "alcohol_level": 0.27,
+    "threshold": 0.25,
+    "location": "Kolkata, Salt Lake",
+    "timestamp": 1728981000000,
+    "device_id": "ESP32-07",
+    "ack": true
+  },
+  "alert8": {
+    "driver_name": "Imran Khan",
+    "licence": "MP-09-20210144689",
+    "vehicle_no": "MP09UV8899",
+    "alcohol_level": 0.84,
+    "threshold": 0.25,
+    "location": "Indore, Vijay Nagar",
+    "timestamp": 1728984000000,
+    "device_id": "ARDUINO-08",
+    "ack": false
+  }
+}
